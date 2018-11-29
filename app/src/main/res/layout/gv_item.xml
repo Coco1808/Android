@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edu.jmi.hello.SquareLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fengjing"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello"
+        android:layout_alignParentBottom="true"
+        android:textSize="16dp"
+        android:padding="10dp"
+        android:textColor="#ffffff"
+        android:background="#88000000"
+        android:gravity="center"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gv_selector"/>
+
+
+</edu.jmi.hello.SquareLayout>

@@ -1,0 +1,4 @@
+include ':tagindicatordemo', ':viewpagertabindicator', ':app', ':library', ':ViewPagerTransformsSample'
+
+
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:hint="请输入一点内容"
+        android:inputType="number"
+        android:imeOptions="actionNext"
+        android:padding="4dp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:text="请再次输入一点内容"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        android:id="@+id/editText" />
+</LinearLayout>

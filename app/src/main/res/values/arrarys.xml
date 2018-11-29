@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="books">
+        <item>Java</item>
+        <item>Android</item>
+        <item>C</item>
+        <item>Python</item>
+        <item>JavaWeb</item>
+        <item>JavaScript</item>
+        <item>JavaScript</item>
+        <item>JavaEE</item> <item>Java</item>
+        <item>Android</item>
+        <item>C</item>
+        <item>Python</item>
+        <item>JavaWeb</item>
+        <item>JavaScript</item>
+        <item>JavaScript</item>
+        <item>JavaEE</item>
+    </string-array>
+
+
+
+</resources>

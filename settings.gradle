@@ -1,0 +1,2 @@
+include ':app', ':word', ':javalib', ':viewpagertabindicator'
+project(':viewpagertabindicator').projectDir = new File('ViewPagerTabIndicator-master/viewpagertabindicator')

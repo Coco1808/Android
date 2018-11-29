@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:layout_width="match_parent"
+android:layout_height="match_parent">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="请选择你的兴趣爱好" />
+
+<LinearLayout
+    android:id="@+id/ll_likes"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <CheckBox
+        android:id="@+id/cd_basketball"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="打篮球"
+        android:checked="true"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cd_football"
+        android:text="踢足球" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cd_music"
+        android:text="音乐" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cd_moive"
+        android:text="看电影" />
+
+</LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="全选"
+        android:onClick="selectAll"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="全不选"
+        android:onClick="selectAllNot"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="反选"
+        android:onClick="reverseSelect"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="显示你的兴趣"
+        android:onClick="displayLikes"
+        />
+    </LinearLayout>

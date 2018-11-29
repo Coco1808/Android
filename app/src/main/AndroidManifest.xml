@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.jmi.hello">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".CheckBoxActivity" />
+        <activity android:name=".RadioActivity" />
+        <activity android:name=".ListViewActivity" />
+        <activity android:name=".YouJiActivity" />
+        <activity android:name=".YouJiActivity2" />
+        <activity android:name=".ExpandableListViewActivity"></activity>
+        <activity android:name=".DropDownActivity" />
+        <activity android:name=".GridVeiwActivity">
+
+        </activity>
+        <activity android:name=".ViewPagerActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
